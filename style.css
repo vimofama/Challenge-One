@@ -1,0 +1,110 @@
+header{
+    padding: 1em;
+}
+
+body{
+    width: auto;
+}
+
+main{
+    max-width: 940px;
+    margin: auto;
+    display: flex; 
+}
+
+.insertarTexto{
+    width: 60%;
+    height: 500px;
+}
+
+#textoObtenido{
+    width: 90%;
+    height: 350px;
+    color: darkblue;
+    font-size: 20px;
+    padding: 24px;
+    resize: none;
+    border-radius: 32px;
+    margin: auto;
+}
+
+#textoObtenido::placeholder{
+    color: darkblue;
+    font-size: 24px;
+}
+
+.insertarTexto p{
+    color: gray;
+    padding: 24px;
+}
+
+#botonEncriptar{
+    width: 35%;
+    height: 67px;
+    background: darkblue;
+    color: white;
+    border-radius: 24px;
+    border: none;
+    font-size: 16px;
+    padding: 24px;
+    margin: 0 1.5%;
+    cursor: pointer;
+}
+
+#botonDesencriptar{
+    width: 35%;
+    height: 67px;
+    background: #D8DFE8;
+    color: darkblue;
+    border-radius: 24px;
+    border-color: darkblue;
+    font-size: 16px;
+    padding: 24px;
+    margin: 0 1.5%;
+    cursor: pointer;
+}
+
+.resultado{
+    width: 40%;
+    height: 550px;
+    background: white;
+    text-align: center;
+    vertical-align: top;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 32px;
+    margin: 0 1.5%;
+}
+
+#textoResultado{
+    width: 90%;
+    height: 350px;
+    color: gray;
+    font-size: 20px;
+    padding: 24px;
+    resize: none;
+    border-radius: 32px;
+    margin: auto;
+}
+
+#botonCopiar{
+    width: 35%;
+    height: 67px;
+    background: #D8DFE8;
+    color: darkblue;
+    border-radius: 24px;
+    border-color: darkblue;
+    font-size: 16px;
+    padding: 24px;
+    margin: 3.5%;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    padding: 40px;
+}
+
+footer a img{
+    width: 40px;
+}

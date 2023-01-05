@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptar/Desencriptar</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="encriptar.js"></script>
+</head>
+<body>
+    <header>
+        <img src="imagenes/logo.png" alt="Logo Alura">
+    </header>
+    <main>
+        <section class="insertarTexto">
+            <textarea id="textoObtenido" placeholder="Ingrese el texo aqui"></textarea>
+            <p>Solo letras minusculas y sin acento</p>
+            <input id="botonEncriptar" onclick="encriptar();" type="submit" value="Encriptar">
+            <input id="botonDesencriptar" onclick="desencriptar();" type="submit" value="Desencriptar">
+        </section>
+        <section class="resultado">
+            <textarea id="textoResultado" placeholder="Ningun mensaje fue encontrado" readonly="readonly"></textarea>
+            <input id="botonCopiar" onclick="copiarTexto();" type="submit" value="Copiar">
+        </section>
+    </main>
+    <footer>
+        <p>Desarrollado por Mateo Morales</p>
+        <a href="https://www.linkedin.com/in/mateo-morales-software/"><img src="imagenes/linkedin.png" alt="Icono de Linkedin"></a>
+        <a href="https://twitter.com/vimofama007"><img src="imagenes/twitter.png" alt="Icono de Twitter"></a>
+    </footer>
+</body>
+</html>
